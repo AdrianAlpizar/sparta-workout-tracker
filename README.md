@@ -1,31 +1,9 @@
 # sparta-workout-tracker
 Developed web app, mobile first, for fitness enthusiast that allows for users to track their weight loss with React with Redux, HTML5, CSS3, and Bootstrap 4 for a responsive UI. Used Okta for authentication, and MongoDB for database. Progress weigh-ins are graphed with Chart.js and database interactions are done through Express API, Axios for HTTP requests, and Node.js.
 
-## Installation
-
-Create and activate a Virtual Enviroment ([venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)) within your project before installing dependencies.
-
-Install virtualenv.
-
-```bash
-python3 -m pip install --user virtualenv
-```
-
-Create your virtualenv.
-
-```bash
-python3 -m venv env
-```
-
-Activate your virtualenv.
-
-```bash
-source env/bin/activate
-```
-
 ## Project client dependencies
 
-```python
+```javascript
 "@okta/okta-react": "^1.2.3",
 "@okta/okta-signin-widget": "^3.4.0",
 "axios": "^0.19.0",
@@ -47,7 +25,7 @@ source env/bin/activate
 
 ## Project backend dependencies
 
-```python
+```javascript
 "body-parser": "^1.19.0",
 "concurrently": "^5.0.0",
 "express": "^4.17.1",
