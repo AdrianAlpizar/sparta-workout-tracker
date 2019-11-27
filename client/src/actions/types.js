@@ -1,0 +1,4 @@
+export const GET_WEIGHTS = 'GET_WEIGHTS';
+export const ADD_WEIGHT = 'ADD_WEIGHT';
+export const DELETE_WEIGHT = 'DELETE_WEIGHT';
+export const WEIGHTS_LOADING = 'WEIGHTS_LOADING';

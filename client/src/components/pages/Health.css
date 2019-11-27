@@ -1,0 +1,96 @@
+.active-health {
+  color: white;
+}
+#items {
+  overflow-x: scroll;
+  width: auto;
+  white-space: nowrap;
+}
+.item {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: none;
+  z-index: 2;
+}
+.first-item {
+  margin-left: 0;
+}
+.item-inside {
+  margin-left: 10px;
+}
+.last-item {
+  margin-left: 10px;
+  margin-right: 25px;
+}
+.fa-weight {
+  color: white;
+  font-size: 20px;
+}
+
+#facebook-icon,
+#facebook-icon ~ span {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card .card-body {
+  padding-top: 25px;
+}
+
+.circle {
+  background-color: indianred;
+  border-radius: 50%;
+}
+
+.btn-clear {
+  background-image: linear-gradient(to bottom left, #272b5e, #272b5e, #272b5e);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  transition: all 0.15s ease;
+  box-shadow: none;
+  color: #fff;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.mb-7 {
+  margin-bottom: 80px;
+}
+
+#modalTrigger {
+  height: 50px;
+  width: 50px;
+}
+
+#modalTriggerPlus {
+  height: 50px;
+  width: 50px;
+}
+
+.bottom-navbar {
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #171941;
+}
+
+
+div.tab-content .tab-pane {
+  color: black;
+}
+
+a.nav-item {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.form-control {
+  color: black!important;
+}
